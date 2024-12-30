@@ -589,7 +589,7 @@ class TriggerProcessing:
                             
                         # increment dump
                         dump_counter += 1
-                        if self._verbose and not do_stop and not triggers_limit_reached:
+                        if self._verbose and not do_stop and not ntriggers_limit_reached:
                             if trigger_counter > 1e5:
                                 print('INFO' + node_num_str
                                       + ': Incrementing dump number, '
